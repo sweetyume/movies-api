@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DisplayMovie from './components/DisplayMovie';
-import InputSearch from './components/InputSeart';
+import InputSearch from './components/InputSearch';
 
 class App extends Component {
   state = {

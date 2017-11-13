@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import request from 'request';
 
+import MovieCard from './MovieCard';
+// api key = http://www.omdbapi.com/?i=tt3896198&apikey=76258e56
+
 class DisplayMovie extends Component {
-    state = {
-        data: []
-    }
+   constructor(props) {
+       super(props);
+       this.state = {
+           data: ''
+       }
+   }
     componentWillReceiveProps(nextProps) {
-        request(``)
+  
     }
+    
     render() {
         return (
-            <div>
+            <div className="display-movies">
                 
             </div>
         );
